@@ -24,7 +24,7 @@ namespace OpenCartTestProj.Tests
         [Test]
         public void Test1()
         {
-            bool isDisplyed = browser.FindElement(By.Id("logo")).Displayed;
+            bool isDisplyed = browser.FindElement(By.Id("lo7go")).Displayed;
 
             Assert.IsTrue(isDisplyed);
         }
