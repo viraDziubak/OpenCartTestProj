@@ -22,7 +22,7 @@ namespace OpenCartTestProj.Tests
         }
 
         [Test]
-        public void Test1()
+        public ,void Test1()
         {
             bool isDisplyed = browser.FindElement(By.Id("lo7go")).Displayed;
 
